@@ -3,12 +3,12 @@
  
 = Introduction =
 
-The Web Services package, WS::Server, is not a standalone application, but rather is designed be a "module" of TclHttpd. The following command is normally placed in httpdthread.tcl:
+The Web Services package, WS::Server, is not a standalone application, but rather is designed be a "module" of [http::/tclhttpd.sf.net TclHttpd]. The following command is normally placed in httpdthread.tcl:
 
 
-== Loading the Webservices Server Package ==
+== Loading the Web Services Server Package ==
 
-To load the webservices server package, do:
+To load the web services server package, do:
 
 {{{
  package require WS::Server
