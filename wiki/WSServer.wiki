@@ -24,11 +24,11 @@ The code that defines a service is normally placed in one or more files in the c
 
 *Description:* Declare a Web Service, the following URLs will exist
 
-  # /service/_ServiceName_
+  # /service/_ServiceName 
                      Displays an HTML page describing the service
-  # /service/_ServiceName_/wsdl
+  # /service/_ServiceName/wsdl
                      Returns a WSDL describing the service
-  # /service/_ServiceName_/op
+  # /service/_ServiceName/op
                      Invoke an operation
 
 *Arguments:* this procedure uses position independed arguments, they are:
@@ -106,8 +106,8 @@ cmd \
 
 *Side-Effects:*
 
-  # A proceedure named *_ServiceName_::_OperationName_* defined
-  # A type name with the name *_OperationName_Result* is defined.
+  # A proceedure named *ServiceName::OperationName* defined
+  # A type name with the name *OperationNameResult* is defined.
 
 *Exception Conditions:* None
 
