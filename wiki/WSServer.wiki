@@ -107,7 +107,7 @@ cmd \
 *Side-Effects:*
 
   # A proceedure named *ServiceName::OperationName* defined
-  # A type name with the name *_OperationName_Result* is defined.
+  # A type name with the name *OperationNameResult* is defined.
 
 *Exception Conditions:* None
 
