@@ -24,11 +24,11 @@ The code that defines a service is normally placed in one or more files in the c
 
 *Description:* Declare a Web Service, the following URLs will exist
 
-  # /service/<ServiceName>
+  # /service/_ServiceName_
                      Displays an HTML page describing the service
-  # /service/<ServiceName>/wsdl
+  # /service/_ServiceName_/wsdl
                      Returns a WSDL describing the service
-  # /service/<ServiceName>/op
+  # /service/_ServiceName_/op
                      Invoke an operation
 
 *Arguments:* this procedure uses position independed arguments, they are:
@@ -100,14 +100,14 @@ cmd \
   * Documentation
   	HTML describing what this operation does
   * Body
-  	The tcl code to be called when the operation is invoked. This code should return a dictionary with <OperationName>Result as a key and the operation's result as the value.
+  	The tcl code to be called when the operation is invoked. This code should return a dictionary with _OperationName_Result as a key and the operation's result as the value.
 
 *Returns:* Nothing
 
 *Side-Effects:*
 
-  # A proceedure named _<ServiceName>::<OperationName>_ defined
-  # A type name with the name _<OperationName>Result_ is defined.
+  # A proceedure named *_ServiceName_::_OperationName_* defined
+  # A type name with the name *_OperationName_Result* is defined.
 
 *Exception Conditions:* None
 
