@@ -1,0 +1,13 @@
+#labels Featured
+Future plans for the Web Services for Tcl package
+ 
+= Schedule =
+
+== Q1 2008 -- Release 1.1.0 ==
+
+  * Add support for polymorphing a type into types that extend it
+  * Bug fixes
+
+= To Do =
+
+  * Add test plans
