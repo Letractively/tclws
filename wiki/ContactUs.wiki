@@ -7,5 +7,6 @@
 
 == Members ==
 
-  * [mailto:gerald.lester@gmail.com Gerald Lester]
   * [mailto:sigzero@gmail.com Robert Hicks]
+  * ]mailto:wojciech.kocjan@gmail.com Wojciech Kocjan]
+  * [mailto:gerald.lester@gmail.com Gerald Lester]
