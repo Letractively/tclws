@@ -10,4 +10,4 @@
   * [mailto:sigzero@gmail.com Robert Hicks]
   * [mailto:wojciech.kocjan@gmail.com Wojciech Kocjan]
   * [mailto:gerald.lester@gmail.com Gerald Lester]
-  * [tom.krehbiel@freescale.com Tom Krehbiel]
+  * [mailto:tom.krehbiel@freescale.com Tom Krehbiel]
