@@ -6,6 +6,7 @@ Future plans for the Web Services for Tcl package
 == Q1 2008 -- Release 1.1.0 ==
 
   * Add support for polymorphing a type into types that extend it
+  * Add support for asynchronous service method definitions
   * Bug fixes
 
 = To Do =
