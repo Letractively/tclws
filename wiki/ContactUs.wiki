@@ -11,3 +11,4 @@
   * [mailto:wojciech.kocjan@gmail.com Wojciech Kocjan]
   * [mailto:gerald.lester@gmail.com Gerald Lester]
   * [mailto:tom.krehbiel@freescale.com Tom Krehbiel]
+  * [mailto:petasisg@gmail.com George Petasis]
