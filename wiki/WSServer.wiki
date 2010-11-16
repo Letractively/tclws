@@ -31,11 +31,11 @@ The code that defines a service is normally placed in one or more files in the c
   # /service/_ServiceName/op
                      Invoke an operation
 
-*Arguments:* this procedure uses position independed arguments, they are:
+*Arguments:* this procedure uses position independent arguments, they are:
 
   * -host
   	The host name for this serice. Defaults to "localhost"
-  * -decription
+  * -description
   	The HTML description for this service
   * -xmlnamespace
   	Extra XML namespaces used by the service
