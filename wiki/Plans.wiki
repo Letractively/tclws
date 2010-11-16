@@ -3,12 +3,11 @@ Future plans for the Web Services for Tcl package
  
 = Schedule =
 
-== Q1 2008 -- Release 1.1.0 ==
+== November 2010 -- Release 1.2.0 ==
 
-  * Add support for polymorphing a type into types that extend it
-  * Add support for asynchronous service method definitions
-  * Bug fixes
 
 = To Do =
 
   * Add test plans
+  * Enhance documentation
+  * Add more complex examples
