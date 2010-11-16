@@ -61,6 +61,21 @@ cmd \
     http_header_list \
     soap_header_list
 }}}
+  * -mode           - Mode that service is running in.  Must be one of:
+                                   tclhttpd  -- running inside of tclhttpd or an
+                                                evironment that supplies a
+                                                compatilbe Url_PrefixInstall
+                                                and Httpd_ReturnData commands
+                                   embedded  -- using the ::WS::Embedded package
+                                   aolserver -- using the ::WS::AolServer package
+                                   wub       -- using the ::WS::Wub package
+                                   rivet     -- running inside Rivet
+  * -ports          - List of ports for embedded mode. Default: 80
+                                    NOTE -- a call should be to
+                                            ::WS::Embedded::Listen for each port
+                                            in this list prior to this call
+  * -traceEnabled   - Boolean to enable/disable trace being passed back in exception
+                                 Defaults to "Y"
 
 *Returns:* Nothing
 
