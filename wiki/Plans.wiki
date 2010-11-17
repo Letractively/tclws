@@ -32,11 +32,11 @@ Thanks to all those who contributed code, especially code to make the WS::Server
  * Client side REST building tools (see ::WS::Client::CreateService and ::WS::Client::DefineRestMethod)
 
 = Known Bugs =
-  * Does not support  the same type name being defined differently in different name space
+  * Issue #18 - Does not support  the same type name being defined differently in different name space
 
 = Limitations =
-  * Does not support UNIONs directly -- requires code (see ::WS::Utils::MutableTypeDef)
-  * Only supports WSDL 1.0 and 1.1
+  * Issue #19 - Does not support UNIONs directly -- requires code (see ::WS::Utils::MutableTypeDef)
+  * Issue #20 - Only supports WSDL 1.0 and 1.1
 
 = To Do =
   * Add test plans
