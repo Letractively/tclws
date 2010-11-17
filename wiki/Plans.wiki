@@ -35,6 +35,7 @@ Thanks to all those who contributed code, especially code to make the WS::Server
   * Issue #18 - Does not support  the same type name being defined differently in different name space
 
 = Limitations =
+  * Supports only "Request-response" Message Exchange Pattern.
   * Issue #19 - Does not support UNIONs directly -- requires code (see ::WS::Utils::MutableTypeDef)
   * Issue #20 - Only supports WSDL 1.0 and 1.1
 
